@@ -1,6 +1,6 @@
-<h1 align="center">NestJS Clone</h1>
+<h1 style="text-align: center;">NestJS Clone</h1>
 
-<p align="center">A clone of the popular <b>NodeJS</b> framework <a href="https://nestjs.com"><b>NestJS</b></a>, built using TypeScript.</p>
+<p style="text-align: center;">A clone of the popular <b>NodeJS</b> framework <a href="https://nestjs.com"><b>NestJS</b></a>, built using TypeScript.</p>
 
 ### Motivation
 
@@ -20,26 +20,26 @@ is built. The project is created using TypeScript and Node.js.
 
 - NestJS Application Factory
 - Decorators
-  - `@Module` Decorator to define a module
-  - `@Controller` Decorator to define a controller
-  - `@Injectable` Decorator to define a service
-  - `@Get` Decorator to define a GET route
-  - `@Post` Decorator to define a POST route
-  - `@Put` Decorator to define a PUT route
-  - `@Delete` Decorator to define a DELETE route
-  - `@Param` Decorator to get the parameter from the route
-  - `@Body` Decorator to get the body from the request
-  - `@Query` Decorator to get the query parameters from the request
-  - `@Req` Decorator to get the request object
-  - `@Res` Decorator to get the response object
-  - `@Headers` Decorator to get the headers from the request
-  - `@UseGuards` Decorator to use guards
-  - `@UseInterceptors` Decorator to use interceptors
-  - `@UseFilters` Decorator to use exception filters
-  - `@UsePipes` Decorator to use pipes
-  - `@SetMetadata` Decorator to set metadata
-  - `@Header` Decorator to set headers
-  - `@Redirect` Decorator to redirect to a route
+    - `@Module` Decorator to define a module
+    - `@Controller` Decorator to define a controller
+    - `@Injectable` Decorator to define a service
+    - `@Get` Decorator to define a GET route
+    - `@Post` Decorator to define a POST route
+    - `@Put` Decorator to define a PUT route
+    - `@Delete` Decorator to define a DELETE route
+    - `@Param` Decorator to get the parameter from the route
+    - `@Body` Decorator to get the body from the request
+    - `@Query` Decorator to get the query parameters from the request
+    - `@Req` Decorator to get the request object
+    - `@Res` Decorator to get the response object
+    - `@Headers` Decorator to get the headers from the request
+    - `@UseGuards` Decorator to use guards
+    - `@UseInterceptors` Decorator to use interceptors
+    - `@UseFilters` Decorator to use exception filters
+    - `@UsePipes` Decorator to use pipes
+    - `@SetMetadata` Decorator to set metadata
+    - `@Header` Decorator to set headers
+    - `@Redirect` Decorator to redirect to a route
 - Dependency Injection
 - Middleware
 - Pipes
@@ -79,8 +79,7 @@ is built. The project is created using TypeScript and Node.js.
 - [ ] Implement Exception Filters
 - [ ] Create UML Diagram
 
-
-### UML Diagram for the Project
+### UML Diagram for the Project (WIP)
 
 ![UML Diagram](nestjs-clone.uml.svg)
 
