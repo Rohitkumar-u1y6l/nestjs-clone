@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          persist-credentials: false
 
       - name: Run docs.sh script
         run: |
@@ -21,8 +23,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name 'GitHub Actions'
-          git config user.email 'actions@github.com'
+          git config --local user.name 'github-actions[bot]'
+          git config --local  user.email 'actions@github.com'
 
       - name: Commit changes
         run: |
@@ -30,5 +32,7 @@ jobs:
           git commit -m "Update README files in docs folder" || echo "No changes to commit"
 
       - name: Push changes
-        run: |
-          git push origin HEAD:${{ github.head_ref }}
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
