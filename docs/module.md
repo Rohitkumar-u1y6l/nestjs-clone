@@ -13,22 +13,6 @@
 - Dependency Injector: Manages dependencies between modules and their components (controllers, services, providers).
 - Module Definition: Defines the boundaries of a module and its components.
 
-### Key technical points
-
-- Decorator Function: It's a decorator function that takes a target class (the module class) as input and returns metadata.
-- Metadata: Contains information about the module, such as:
-  imports: An array of imported modules.
-  exports: An array of providers exported for other modules to consume.
-  controllers: An array of controller classes.
-  providers: An array of providers (services, repositories, etc.).
-  modules: An array of nested modules.
-- Dynamic Modules: Allows for dynamic configuration of modules, useful for environments like production vs. development.
-- Global Modules: Can be accessed from any module without explicit import, but use with caution.
-- ModuleRef: Provides access to the module's injector for advanced use cases.
-- Reflection: Understanding how decorators work in TypeScript is essential for creating custom decorators.
-- Dependency Injection: Knowledge of how NestJS handles dependency injection is crucial for understanding module interactions.
-- Metadata Storage: Familiarization with how NestJS stores metadata for later retrieval is beneficial.
-
 #### Basic Module Structure
 
 ```typescript
