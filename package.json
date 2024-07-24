@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/Rohitkumar-u1y6l/nestjs-clone/issues"
   },
-  "homepage": "https://github.com/Rohitkumar-u1y6l/nestjs-clone#readme"
+  "homepage": "https://github.com/Rohitkumar-u1y6l/nestjs-clone#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "reflect-metadata": "^0.2.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
 }
