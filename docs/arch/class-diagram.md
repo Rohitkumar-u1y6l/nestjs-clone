@@ -11,38 +11,38 @@ The diagram includes the following key components:
 
 1. **Modules**:
 
-    - **`AppModule`**: Represents the root module of the application. It organizes and groups related components such as
-      controllers and providers.
-    - **`ExampleModule`**: An example of a module that includes providers like `AppService`. It demonstrates how to
-      define and configure modules within the application.
+   - **`AppModule`**: Represents the root module of the application. It organizes and groups related components such as
+     controllers and providers.
+   - **`AppModule`**: An example of a module that includes providers like `AppService`. It demonstrates how to
+     define and configure modules within the application.
 
 2. **Controllers**:
 
-    - **`AppController`**: Handles incoming HTTP requests. It uses services to process requests and generate responses.
-      Annotated with the `@Controller()` decorator to define it as a controller.
+   - **`AppController`**: Handles incoming HTTP requests. It uses services to process requests and generate responses.
+     Annotated with the `@Controller()` decorator to define it as a controller.
 
 3. **Services**:
 
-    - **`AppService`**: Contains business logic and provides methods to handle specific operations. It is used by
-      controllers to perform tasks and generate responses. Annotated with the `@Injectable()` decorator to indicate that
-      it can be injected as a dependency.
+   - **`AppService`**: Contains business logic and provides methods to handle specific operations. It is used by
+     controllers to perform tasks and generate responses. Annotated with the `@Injectable()` decorator to indicate that
+     it can be injected as a dependency.
 
 4. **Decorators**:
 
-    - **`@Module(metadata)`**: Used to define a module and its configuration, including providers and imports.
-      The `metadata` parameter specifies the module’s dependencies and providers.
-    - **`@Injectable()`**: Marks a class as a service or provider that can be injected into other components.
-    - **`@Controller()`**: Indicates that a class is a controller responsible for handling HTTP requests.
+   - **`@Module(metadata)`**: Used to define a module and its configuration, including providers and imports.
+     The `metadata` parameter specifies the module’s dependencies and providers.
+   - **`@Injectable()`**: Marks a class as a service or provider that can be injected into other components.
+   - **`@Controller()`**: Indicates that a class is a controller responsible for handling HTTP requests.
 
 5. **Application Factory**:
 
-    - **`NestFactory`**: Responsible for creating and initializing the application. It sets up the `NestContainer`,
-      registers modules, and creates an instance of `INestApplication`.
+   - **`NestFactory`**: Responsible for creating and initializing the application. It sets up the `NestContainer`,
+     registers modules, and creates an instance of `INestApplication`.
 
 6. **Application Components**:
-    - **`NestContainer`**: Manages modules and providers, handles dependency resolution, and maintains instances of
-      components.
-    - **`INestApplication`**: Represents the application instance, initializes modules, and starts the HTTP server.
+   - **`NestContainer`**: Manages modules and providers, handles dependency resolution, and maintains instances of
+     components.
+   - **`INestApplication`**: Represents the application instance, initializes modules, and starts the HTTP server.
 
 ### Class Relationships
 
@@ -60,47 +60,40 @@ The diagram includes the following key components:
 
 - **`AppModule`**:
 
-    - **Attributes**: Metadata about the module.
-    - **Methods**: None (acts as a container for configuration).
-    - **Relations**: Contains `AppService` and `AppController`.
+  - **Attributes**: Metadata about the module.
+  - **Methods**: None (acts as a container for configuration).
+  - **Relations**: Contains `AppService` and `AppController`.
 
 - **`AppController`**:
 
-    - **Attributes**: None.
-    - **Methods**: Handles HTTP requests and invokes `AppService` methods.
-    - **Relations**: Depends on `AppService`.
+  - **Attributes**: None.
+  - **Methods**: Handles HTTP requests and invokes `AppService` methods.
+  - **Relations**: Depends on `AppService`.
 
 - **`AppService`**:
 
-    - **Attributes**: None.
-    - **Methods**: Provides business logic and interacts with `LoggerService`.
-    - **Relations**: Depends on `LoggerService`.
+  - **Attributes**: None.
+  - **Methods**: Provides business logic and interacts with `LoggerService`.
+  - **Relations**: Depends on `LoggerService`.
 
 - **`LoggerService`**:
 
-    - **Attributes**: None.
-    - **Methods**: Provides logging functionality.
+  - **Attributes**: None.
+  - **Methods**: Provides logging functionality.
 
 - **`NestFactory`**:
 
-    - **Attributes**: None.
-    - **Methods**: Creates and initializes `NestContainer` and `INestApplication`.
-    - **Relations**: Creates and configures `NestContainer`, initializes `INestApplication`.
+  - **Attributes**: None.
+  - **Methods**: Creates and initializes `NestContainer` and `INestApplication`.
+  - **Relations**: Creates and configures `NestContainer`, initializes `INestApplication`.
 
 - **`NestContainer`**:
 
-    - **Attributes**: Stores modules and providers.
-    - **Methods**: Manages module and provider registration, resolves dependencies.
-    - **Relations**: Manages `AppModule`, `ExampleModule`, `AppService`, `LoggerService`.
+  - **Attributes**: Stores modules and providers.
+  - **Methods**: Manages module and provider registration, resolves dependencies.
+  - **Relations**: Manages `AppModule`, `ExampleModule`, `AppService`, `LoggerService`.
 
 - **`INestApplication`**:
-    - **Attributes**: Configuration settings.
-    - **Methods**: Initializes modules, starts the HTTP server.
-    - **Relations**: Uses `NestContainer` for initialization.
-
-### Summary
-
-This class diagram provides a structured view of the application's architecture. It shows how modules, controllers, and
-services are organized and how they interact with each other. The use of decorators such
-as `@Module()`, `@Injectable()`, and `@Controller()` helps to define the roles and relationships of these components,
-making the application modular and maintainable.
+  - **Attributes**: Configuration settings.
+  - **Methods**: Initializes modules, starts the HTTP server.
+  - **Relations**: Uses `NestContainer` for initialization.

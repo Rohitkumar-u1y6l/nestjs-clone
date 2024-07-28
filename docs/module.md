@@ -1,4 +1,4 @@
-<h1 style="text-align: center;color:red;">@Module</h1>
+<h1 style="text-align:center">Module Decorator</h1>
 
 ### Why it exists
 

@@ -1,4 +1,4 @@
-# Design Patterns Used in the NestJS Clone Project
+# Design Patterns Used
 
 ## Overview
 
@@ -17,9 +17,9 @@ the code, and how they are applied.
 
 - **Method:** `create(module: any): Promise<INestApplication>`
 - **Responsibilities:**
-    - Creates a new instance of `NestContainer`.
-    - Registers modules and providers with the container.
-    - Initializes the application and sets up the HTTP server.
+  - Creates a new instance of `NestContainer`.
+  - Registers modules and providers with the container.
+  - Initializes the application and sets up the HTTP server.
 - **Reason:** Encapsulates the complex logic of creating and configuring the application, making it easier to manage and
   extend.
 
@@ -186,6 +186,3 @@ In summary, the project utilizes several design patterns to structure and manage
 - **Decorator Pattern**: Enhances classes with metadata.
 - **Singleton Pattern**: Ensures a single instance of the container.
 - **Strategy Pattern**: Allows for flexible module initialization strategies.
-
-These patterns collectively contribute to a well-organized and maintainable codebase.
-

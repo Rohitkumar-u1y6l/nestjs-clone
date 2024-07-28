@@ -1,30 +1,16 @@
 # Architecture Overview
 
-## Class Diagram
+## [Sequence Diagram](sequence-diagram.md)
 
-An overview of the project's architecture, detailing its purpose, objectives, and primary features. This section
-includes a visual representation of the classes and their relationships, helping to understand the structure and design
-of the system.
+This sequence diagram outlines the process of bootstrapping the application. It details the steps involved in creating and configuring the application, registering modules, resolving dependencies, and handling HTTP requests. Understanding this sequence helps in grasping the flow of operations within the system..
 
-[Class Diagram](class-diagram.md)
+## [Class Diagram](class-diagram.md)
 
 The class diagram provides a high-level view of the system's components and their interactions. It helps in identifying
 the key classes, their attributes, methods, and the relationships between them. This diagram is essential for
 understanding the static structure of the project.
 
-## Sequence Diagram
-
-Detailed insights into the `@Module` decorator, its functionality, and practical examples of its application. This
-section provides a step-by-step illustration of the interactions between different components in a specific sequence,
-showcasing how the system processes a particular task or request.
-
-[Sequence Diagram](sequence-diagram.md)
-
-The sequence diagram illustrates the dynamic behavior of the system by showing the sequence of messages exchanged
-between objects to carry out a specific function. It helps in understanding the flow of control and data within the
-system, making it easier to identify potential issues and optimize performance.
-
-[Design Patterns Used](design-patterns-used.md)
+## [Design Patterns Used](design-patterns-used.md)
 
 The design patterns used in the project, their purpose, and the problems they solve. This section provides an overview
 of the common design patterns implemented in the system, explaining their significance and benefits. Understanding
