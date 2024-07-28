@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PT3KE52PE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1PT3KE52PE');
+</script>
+
 ## Sequence Diagram: Application Bootstrapping and HTTP Request Handling
 
 This sequence diagram outlines the process of bootstrapping the application using the `NestFactory`, initializing

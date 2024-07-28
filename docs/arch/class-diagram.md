@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PT3KE52PE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1PT3KE52PE');
+</script>
+
 ## Class Diagram: Application Structure
 
 The class diagram provides a high-level view of the key classes and their relationships within the application. It
