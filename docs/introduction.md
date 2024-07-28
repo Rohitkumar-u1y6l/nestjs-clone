@@ -1,13 +1,13 @@
 ## Introduction
 
-Welcome to the **NestFactory Example Application**. This project is a demonstration of building a scalable and modular
+Welcome to the **Nest Clone Application**. This project is a demonstration of building a scalable and modular
 application framework using TypeScript and Node.js, inspired by the NestJS framework. It serves as an educational
 example to understand core principles of application architecture, including dependency injection, modular design, and
 request handling.
 
 ## Overview
 
-The **NestFactory Example Application** is designed to showcase how to structure a Node.js application with a focus on
+The **Nest Clone Application** is designed to showcase how to structure a Node.js application with a focus on
 modularity and separation of concerns. The project includes several key components and concepts that are crucial for
 developing robust and maintainable software systems.
 

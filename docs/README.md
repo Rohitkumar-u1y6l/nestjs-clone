@@ -21,7 +21,7 @@ is built. The project is created using TypeScript and Node.js.
 ### Table of Contents
 
 | **Section**                          | **Description**                                                                                                            |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [Introduction](introduction.md)      | An overview of the project, detailing its purpose, objectives, and primary features.                                       |
 | [Architecture](arch/architecture.md) | Overview of the project's architecture, including design patterns, system components, and their interactions.              |
 | [Installation](installation.md)      | Step-by-step guide for setting up the project, including prerequisites, installation instructions, and configuration tips. |
