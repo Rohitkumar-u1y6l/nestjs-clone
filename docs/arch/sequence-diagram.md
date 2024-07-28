@@ -4,7 +4,7 @@ This sequence diagram outlines the process of bootstrapping the application usin
 modules, and handling an HTTP request. It captures the interactions between various components from the creation of the
 application instance to the processing of client requests.
 
-![NestJS Bootstrapping Process](assets/nestjs-bootstrapping-process.svg)
+![Bootstrapping Process](https://raw.githubusercontent.com/Rohitkumar-u1y6l/nestjs-clone/main/assets/nestjs-bootstrapping-process.svg)
 
 ### Overview
 
