@@ -8,10 +8,10 @@
 
 The motivation behind building this project is to gain a deeper understanding of the inner workings of NestJS, one of
 the most popular Node.js frameworks. By creating a clone of NestJS, I want to explore its core concepts, such as
-decorators, dependency injection, middleware, pipes, guards, interceptors, and exception filters. This hands-on approach
+Dependency Injection, Decorators and others as well as the architectural patterns and design principles that underpin
+its framework. This hands-on approach
 will provide valuable insights into how NestJS is built and how it can be leveraged to develop robust and scalable
-applications. Through this project, I aim to enhance my knowledge and skills in TypeScript and Node.js development,
-ultimately becoming more proficient in building modern web applications.
+applications.
 
 ### Description
 
