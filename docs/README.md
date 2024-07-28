@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1PT3KE52PE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1PT3KE52PE');
+</script>
+
 <h1 style="text-align: center;">NestJS Clone</h1>
 
 <p style="text-align: center;">
@@ -21,7 +31,7 @@ is built. The project is created using TypeScript and Node.js.
 ### Table of Contents
 
 | **Section**                          | **Description**                                                                                                            |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
 | [Introduction](introduction.md)      | An overview of the project, detailing its purpose, objectives, and primary features.                                       |
 | [Architecture](arch/architecture.md) | Overview of the project's architecture, including design patterns, system components, and their interactions.              |
 | [Installation](installation.md)      | Step-by-step guide for setting up the project, including prerequisites, installation instructions, and configuration tips. |
