@@ -2,7 +2,7 @@
 
 The class diagram provides a high-level view of the key classes and their relationships within the application. It outlines the roles and interactions of various components such as modules, services, controllers, and decorators.
 
-![Class Diagram](../../class-diagram.svg)
+![Class Diagram](../../assets/class-diagram.svg)
 
 ### Overview
 
