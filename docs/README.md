@@ -30,17 +30,18 @@ is built. The project is created using TypeScript and Node.js.
 
 ### Table of Contents
 
-| **Section**                          | **Description**                                                                                                            |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| [Introduction](introduction.md)      | An overview of the project, detailing its purpose, objectives, and primary features.                                       |
-| [Architecture](arch/architecture.md) | Overview of the project's architecture, including design patterns, system components, and their interactions.              |
-| [Installation](installation.md)      | Step-by-step guide for setting up the project, including prerequisites, installation instructions, and configuration tips. |
-| [Module](module.md)                  | Detailed insights into the `@Module` decorator, its functionality, and practical examples of its application.              |
-| [Controller](controller.md)          | Comprehensive guide on the `@Controller` decorator, including its implementation and usage scenarios.                      |
-| [Injectable](injectable.md)          | In-depth explanation of the `@Injectable` decorator, its design, benefits, and usage examples.                             |
-| [Usage](usage.md)                    | Instructions on how to use the project effectively, with common commands, configuration options, and example use cases.    |
-| [API Reference](api.md)              | Complete API documentation, detailing endpoints, request and response formats, and example interactions.                   |
-| [Testing](testing.md)                | Instructions for testing the project, including test cases, coverage information, and how to run tests.                    |
+| **Section**                                            | **Description**                                                                                                            |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| [Introduction](introduction.md)                        | An overview of the project, detailing its purpose, objectives, and primary features.                                       |
+| [Concepts](concepts/static-functions-in-javascript.md) | [Static vs Instance Functions](concepts/static-functions-in-javascript.md)                                                 |                                   |
+| [Architecture](arch/architecture.md)                   | Overview of the project's architecture, including design patterns, system components, and their interactions.              |
+| [Installation](installation.md)                        | Step-by-step guide for setting up the project, including prerequisites, installation instructions, and configuration tips. |
+| [Module](module.md)                                    | Detailed insights into the `@Module` decorator, its functionality, and practical examples of its application.              |
+| [Controller](controller.md)                            | Comprehensive guide on the `@Controller` decorator, including its implementation and usage scenarios.                      |
+| [Injectable](injectable.md)                            | In-depth explanation of the `@Injectable` decorator, its design, benefits, and usage examples.                             |
+| [Usage](usage.md)                                      | Instructions on how to use the project effectively, with common commands, configuration options, and example use cases.    |
+| [API Reference](api.md)                                | Complete API documentation, detailing endpoints, request and response formats, and example interactions.                   |
+| [Testing](testing.md)                                  | Instructions for testing the project, including test cases, coverage information, and how to run tests.                    |
 
 ### Contributing
 
