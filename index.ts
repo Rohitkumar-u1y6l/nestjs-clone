@@ -1,4 +1,5 @@
 import { Controller, Injectable, Module } from "./common";
+import { NestFactory } from "./nest-factory";
 import { Injector } from "./util";
 
 @Injectable()
@@ -17,6 +18,6 @@ class CatsController {}
 })
 class CatsModule {}
 
-const args = [CatsController.name, CatsService.name];
-
-args.forEach((arg) => Injector.resolve(arg));
+async function bootstrap() {
+  const app = await NestFactory.create(CatsModule);
+}

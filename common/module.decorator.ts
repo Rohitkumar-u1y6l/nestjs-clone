@@ -1,5 +1,5 @@
 import "reflect-metadata";
-interface ModuleOptions {
+export interface ModuleOptions {
   controllers?: Function[];
   providers?: Function[];
   imports?: Function[];
@@ -39,4 +39,3 @@ export function Module(options: ModuleOptions): ClassDecorator {
     }
   };
 }
-
